@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    height: 10vh;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 20vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.container{
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10vh;
+}
+#input{
+    width: 35vw;
+    height: 5vh;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 1vw;
+    background-color: green;
+    color: rgba(245, 245, 245, 0.753);
+    font-size: large;
+    padding-left: 20px;
+    
+}
+#submitbtn{
+    height: 5vh;
+    width: 8vw;
+    font-size: large;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color:chocolate;
+    min-width: 10vw;
+}
+#submitbtn:active{
+    background-color: black;
+}
+#input:focus{
+    background-color:rgb(6, 106, 206);
+    color: rgb(255, 255, 255);
+}
+p{
+    margin-top: 2vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+li{
+    list-style: none;
+    font-size: 3vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 70vw;
+    position: relative;
+    border: 1px solid blue;
+    border-top: none;
+}
+.checkBox{
+    accent-color: green;
+    width: 3vh;
+    height: 3vh;
+    position: absolute;
+    right: 12%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.delbtn{
+    color: red;
+    position: absolute;
+    right: 8%;
+    margin-left: 5px;
+    font-size: 3vh;
+    cursor: pointer;
+}
+.editbtn{
+    position: absolute;
+    right: 16%;
+    color: blue;
+    margin-right: 10px;
+    font-size: 3vh;
+    cursor: pointer;
+}
+.editinput{
+    width: 30vw;
+    height: 4vh;
+    color: green;
+    font-size: 3vh;
+}
+.newSubmit{
+    background-color: black;
+    color: white;
+    height: 4vh;
+    width: 5vw;
+    font-size: 2vh;
+}
